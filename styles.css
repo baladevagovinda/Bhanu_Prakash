@@ -1,67 +1,55 @@
 
 body{
         margin: 0;  
-        /* font-family: 'Ubuntu', Google Sans, Helvetica Neue, sans-serif ; */
+        font-family: 'Ubuntu', Google Sans, Helvetica Neue, sans-serif ;
         /* font-family: 'Redressed', cursive; */
-        font-family: 'Lobster', cursive;
+        /* font-family: 'Lobster', cursive; */
         text-align: center;
+        background-color: #f1f6f9;
+        color: #073f53;
     }
 
 h1 {
     margin: 0;
     color: #7c0b5c;
-    position: absolute;
-    bottom: 27%;
-    left: 65%;    
+    }
+h2{
+    color: #14274e;
 }
 
 #p1{
-    margin-top: 0;
     font-style: italic ;
-    color:#3d1e05;
-    margin: 0;  
-    position: absolute;
-    bottom: 23%;    
-    left: 70%;
-}
+    }
 
 #hdback
 {
     width: 100%;
 }
 
-#dp{
+.RoundImg
+{
    width: 10%; 
 }
 
-#sk1{
-    width: 10%;
+#hr1{
+    background-color: white;
+    border-style: dotted none none;
+    border-color:  #14274e;
+    border-width: 5px;
+    width: 25%;
 }
-#sk2{
-    width: 10%;
-}
-
 .top-container {
-    background-color: #f1f6f9;
     width: 100%;
     margin: 0;
-    position: relative;
-    font-family: 'Ubuntu', Google Sans, Helvetica Neue, sans-serif ;
-   
-}
-.middle-container {
-    font-family: 'Ubuntu', Google Sans, Helvetica Neue, sans-serif ;
-    background-color: #f4f4f2;
 }
 
 .bottom-container {
-    font-family: 'Ubuntu', Google Sans, Helvetica Neue, sans-serif ;
-    background-color: #bbbfca;
+    /* padding: 1px; */
+    background-color:;
+    margin: 0;
 }
 
-.profile{
-    
-    image-resolution: 50%;
-
+.btn
+{
+    margin-right: 1%;    
 }
-
